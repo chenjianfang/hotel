@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="animate.min.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+        max-width: 420px;
+    }
+    body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+        background: #eee;
+    }
+    .ani{
+        position: absolute;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        width: 100%;
+        height: 100%;
+
+    }
+    .back_1{
+    width: 100%;
+    height: 100%;
+    background: url(images/1back.jpg) no-repeat;
+    background-size: 100% 100%;
+    }
+    .back_2{
+    width: 100%;
+    height: 100%;
+    background: url(images/2back.jpg) no-repeat;
+    background-size: 100% 100%;
+    }
+    .back_3{
+    width: 100%;
+    height: 100%;
+    background: url(images/3back.jpg) no-repeat;
+    background-size: 100% 100%;
+    }
+    .back_4{
+    width: 100%;
+    height: 100%;
+    background: url(images/4back.jpg) no-repeat;
+    background-size: 100% 100%;
+    }
+    .back_5{
+    width: 100%;
+    height: 100%;
+    background: url(images/5back.jpg) no-repeat;
+    background-size: 100% 100%;
+    }
+    /*.back_2 .star_t{
+    position: absolute;
+    top: 11%;
+    right: 35%;
+    width: 4%;
+    -webkit-animation:rotate 2.5s linear infinite;
+    }
+    @-webkit-keyframes rotate{
+    100%{
+        -webkit-transform:rotate(360deg);
+        }
+    }*/
+    
+
+    </style>
+</head>
+<body>
+
+    
+    <img src="images/music.png" class="music"><!-- 音乐图标 -->
+    <div class="swiper-container swiper-container-h firstpart ">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide back_1">              
+                    <img src="images/101.png" class="ani" style="top:22%;left:0;width:100%;height:auto;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    <img src="images/102.png" class="ani" style="top:30%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s">
+                    <img src="images/103.png" class="ani" style="top:38%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                    <img src="images/104.png" class="ani" style="top:46%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2s">
+                
+            </div>
+            <div class="swiper-slide back_2">
+                
+                    <img src="images/201.png" class="ani" style="top:21%;left:0;width:100%;height:auto;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                    <img src="images/202.png" class="ani" style="top:29%;left:0;width:100%;height:auto;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.7s">
+                    <img src="images/203.png" class="ani" style="top:39%;left:0;width:100%;height:auto;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+                
+                    <!-- <img src="images/201.png" style="height:auto!important;" class="star_t"> -->
+                
+            </div>
+            <div class="swiper-slide back_3">
+                
+                    <img src="images/301.png" class="ani" style="bottom:20%;left:0;width:100%;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                    <img src="images/301.png" class="ani" style="bottom:6%;left:0;width:100%;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                
+                    <img src="images/302.png" class="ani" style="bottom:24%;left:0;width:100%;" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="0.7s" swiper-animate-delay="0.7s">
+                
+                
+                    <img src="images/303.png" class="ani" style="bottom:10%;left:0;width:100%;" swiper-animate-effect="rotateInDownRight" swiper-animate-duration="0.7s" swiper-animate-delay="1.7s">
+                
+                
+                    <img src="images/304.png" class="ani" style="bottom:24%;left:0;width:100%;" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.7s" swiper-animate-delay="1.2s">
+                
+                
+                    <img src="images/305.png" class="ani" style="bottom:10%;left:0;width:100%;" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.7s" swiper-animate-delay="2.2s">
+                
+            </div>
+            <div class="swiper-slide back_4">
+                
+                    <img src="images/401.png" class="ani" style="top:15%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">                
+                    <img src="images/402.png" class="ani" style="top:21%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.7s">
+                    <img src="images/403.png" class="ani" style="top:29%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+                    <img src="images/404.png" class="ani" style="top:35%;left:0;width:100%;" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.7s">
+                
+            </div>
+            <div class="swiper-slide back_5">
+                
+                    <img src="images/501.png" class="ani myclick">
+                
+            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-h"></div>
+    </div>
+    <!-- 开始答题 -->
+    <div class="question hide">
+        <div class="que_1 que">
+            <div class="tap1">
+                <img src="images/1a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/1b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/1c.png">
+            </div>
+            <div class="tap4 check">
+                <img src="images/1d.png">
+            </div>
+        </div>
+
+        <div class="que_2 que hide">
+            <div class="tap1">
+                <img src="images/2a.png">
+            </div>
+            <div class="tap2 check">
+                <img src="images/2b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/2c.png">
+            </div>
+            <div class="tap4">
+                <img src="images/2d.png">
+            </div>
+        </div>
+
+        <div class="que_3 que hide">
+            <div class="tap1 check">
+                <img src="images/3a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/3b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/3c.png">
+            </div>
+            <div class="tap4">
+                <img src="images/3d.png">
+            </div>
+        </div>
+       
+       <div class="que_4 que hide">
+            <div class="tap1">
+                <img src="images/4a.png">
+            </div>
+            <div class="tap2 check">
+                <img src="images/4b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/4c.png">
+            </div>
+            <div class="tap4">
+                <img src="images/4d.png">
+            </div>
+        </div>
+
+        <div class="que_5 que hide">
+            <div class="tap1">
+                <img src="images/5a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/5b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/5c.png">
+            </div>
+            <div class="tap4 check">
+                <img src="images/5d.png">
+            </div>
+        </div>
+
+        <div class="que_6 que hide">
+            <div class="tap1">
+                <img src="images/6a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/6b.png">
+            </div>
+            <div class="tap3 check">
+                <img src="images/6c.png">
+            </div>
+            <div class="tap4">
+                <img src="images/6d.png">
+            </div>
+        </div>
+
+        <div class="que_7 que hide">
+            <div class="tap1">
+                <img src="images/7a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/7b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/7c.png">
+            </div>
+            <div class="tap4 check">
+                <img src="images/7d.png">
+            </div>
+        </div>
+
+        <div class="que_8 que hide">
+            <div class="tap1 check">
+                <img src="images/8a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/8b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/8c.png">
+            </div>
+            <div class="tap4">
+                <img src="images/8d.png">
+            </div>
+        </div>
+
+        <div class="que_9 que hide">
+            <div class="tap1 check">
+                <img src="images/9a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/9b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/9c.png">
+            </div>
+            <div class="tap4">
+                <img src="images/9d.png">
+            </div>
+        </div>
+
+        <div class="que_10 que hide">
+            <div class="tap1">
+                <img src="images/10a.png">
+            </div>
+            <div class="tap2">
+                <img src="images/10b.png">
+            </div>
+            <div class="tap3">
+                <img src="images/10c.png">
+            </div>
+            <div class="tap4 check">
+                <img src="images/10d.png">
+            </div>
+        </div>
+        <div class="share hide">
+            <div class="fenshu">
+                <img src="images/share1.png">
+            </div>
+            <div class="wenhao">
+                <img src="images/share2.png">
+            </div>
+            <div class="sharefont">
+                <img src="images/share3.png">
+            </div>
+        </div>
+    </div>
+    <!-- 分享后90分以上 -->
+    <div class="swiper-container swiper-container-l secondpart "><!-- 90分以下要把他隐藏 -->
+        <div class="swiper-wrapper">
+            <div class="blank_a"></div><!-- 分享后立即让这个隐藏 -->
+            <div class="swiper-slide upnine">
+                <div class="mathnum"></div>
+                <div class="ewm">
+                    <img src="images/ewm.png">
+                </div>
+            </div>
+            <div class="swiper-slide lastpho">
+                <div class="arrowLeft">
+                    <img src="images/arrowLeft.png">
+                </div>
+                <div class="arrowRight">
+                    <img src="images/arrowRight.png">
+                </div>
+                <a href="http://www.w1w.me/index.php?g=Wx&m=Content&a=dp&id=ivmvzc1426038862"><div class="lastlogo">
+                    <img src="images/logo.png">
+                </div></a>
+            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-l"></div>
+    </div>
+    <!-- 分享后90分以下 -->
+    <div class="swiper-container swiper-container-r thirdpart"><!-- 90分以上要把它隐藏 -->
+        <div class="swiper-wrapper">
+            <div class="blank_b"></div><!-- 分享后立即让这个隐藏 -->
+            <div class="swiper-slide downnine">
+                <div class="minnum"></div>
+                <div class="ewm_a">
+                    <img src="images/ewm.png">
+                </div>
+            </div>
+            <div class="swiper-slide lastpho">
+                <div class="arrowLeft">
+                    <img src="images/arrowLeft.png">
+                </div>
+                <div class="arrowRight">
+                    <img src="images/arrowRight.png">
+                </div>
+                <a href="http://www.w1w.me/index.php?g=Wx&m=Content&a=dp&id=ivmvzc1426038862"><div class="lastlogo">
+                    <img src="images/logo.png">
+                </div></a>
+            </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-r"></div>
+    </div>
+    <!-- 音乐文件 -->
+    <audio id="musicBack" autoplay="autoplay" loop="loop">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <script src="test.js"></script>
+    <script src="swiper.min.js"></script>
+    <script src="swiper.animate.min.js"></script>
+    <script>        
+    var swiperH = new Swiper ('.swiper-container-h', {
+        direction : 'vertical',
+        pagination: '.swiper-pagination-h',
+        onInit: function(swiper){
+            swiperAnimateCache(swiper);
+            swiperAnimate(swiper);
+        },
+    onSlideChangeEnd: function(swiper){
+        swiperAnimate(swiper);
+        }     
+    });
+
+    var swiperL = new Swiper('.swiper-container-l', {
+        direction: 'vertical',
+        pagination: '.swiper-pagination-l',
+    });
+    var swiperR = new Swiper('.swiper-container-r', {
+        direction: 'vertical',
+        pagination: '.swiper-pagination-r',
+    });
+    </script>
+</body>
+</html>
